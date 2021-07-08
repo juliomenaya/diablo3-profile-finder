@@ -28,6 +28,7 @@ import setError from '@/mixins/setError'
 import BaseLoading from '@/components/BaseLoading'
 import HeroDetailHeader from './HeroDetailHeader'
 import HeroAttributes from './HeroAttributes/Index'
+import HeroSkills from './HeroSkills/Index'
 // import HeroItems from './HeroItems/Index'
 import { getApiHero, getApiDetailedHeroItems } from '@/api/search'
 
@@ -37,7 +38,8 @@ export default {
   components: {
     BaseLoading,
     HeroDetailHeader,
-    HeroAttributes
+    HeroAttributes,
+    HeroSkills
     // HeroItems
   },
   data () {
